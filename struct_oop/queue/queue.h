@@ -10,6 +10,7 @@ struct Queue
 	int number;
 	popfp popQueue;
 	func_pnt addQueue;
+	func_pnt insertQueue;
 	struct Queue *next;
 }typedef Queue;
 

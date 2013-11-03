@@ -26,6 +26,7 @@ int main()
 		pointer=pointer->next;
 	}
 	pointer=test;
+	test->insertQueue(test,5,1000);
 	printf("\nPullOut:");
 	while(test!=NULL)
 		printf("%d,",test->popQueue(&test));
